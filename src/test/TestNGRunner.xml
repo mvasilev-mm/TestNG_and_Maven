@@ -1,0 +1,14 @@
+<suite name="Test-Suite" parallel="methods" thread-count="2">
+
+    <!-- Parameters declaration -->
+    <parameter name="paramA" value="10"/>
+    <parameter name="paramB" value="5"/>
+
+    <!-- Tests -->
+    <test name="Test-Suite-MathOperations">
+        <classes>
+            <class name="Calculations" />
+        </classes>
+    </test>
+
+</suite>
